@@ -1,0 +1,10 @@
+x1= int (input ("точкa x1: "))
+y1= int (input ("точкa y1: "))
+x2= int (input ("точкa x2: "))
+y2= int (input ("точкa y2: "))
+a=abs(x2-x1)
+b=abs(y2-y1)
+P=2*(a+b)
+S=a*b
+print("Периметр", P)
+print('Площадь ', S)
